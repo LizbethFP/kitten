@@ -340,7 +340,7 @@
   display: none;
 }
 .kitty-mobile {
-  margin-top: 45%;
+  margin-top: 60vh;
 }
 
 /* tablet's display */
@@ -355,12 +355,12 @@
     display: block;
   }
   .kitty-tablet {
-    margin-top: 45%;
+    margin-top: 60vh;
   }
 }
 
 /* desktop's display */
-@media (min-width: 992px) and (min-height: 716px) {
+@media (min-width: 992px) and (min-height: 900px) {
   .view-mobile {
     display: none;
   }
@@ -371,7 +371,7 @@
     display: block
   }
   .kitty-desktop {
-    margin-top: 42%;
+    margin-top: 70vh;
   }
 }
 
